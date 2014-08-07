@@ -5,9 +5,9 @@
 ## data frame loaded by epcCharts.R - dt
 
 setwd("/Users/dimakrat/Documents/Study Data Sience/Exploratory Data Analysis/data")
-# download.file("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip", destfile="pwrconsum.zip", method="curl")
-# unzip("pwrconsum.zip")
-# file.remove("pwrconsum.zip")
+download.file("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip", destfile="pwrconsum.zip", method="curl")
+unzip("pwrconsum.zip")
+file.remove("pwrconsum.zip")
 
 ## Loading the data
 ## Read data from "household_power_consumption.txt"
